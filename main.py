@@ -8,7 +8,7 @@ while(a != n):
     a = int(input("Guess a Number: "))
     if( a > n):
         print("Choose a lower number")
-    elif(a<n)
+    elif(a<n):
         print("Choose a higher number")
     Guesses += 1
 
