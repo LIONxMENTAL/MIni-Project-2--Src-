@@ -1,0 +1,11 @@
+This is a number guessing game where the program randomly selects an integer between 1 and 100, and the user is prompted to guess the number. The game proceeds as follows:
+
+1. **Random Number Generation:** The program generates a random number `n` between 1 and 100.
+2. **User Input:** The user is asked to input a guess (`a`) through the console.
+3. **Comparison:** 
+   - If the guessed number (`a`) is greater than the generated number (`n`), the program prompts the user to "Choose a lower number."
+   - If the guessed number is less than the generated number, the program prompts the user to "Choose a higher number."
+4. **Looping:** The game continues to prompt the user for guesses until the correct number is guessed.
+5. **Game Completion:** When the user guesses the correct number, the program prints a message indicating the correct number and the total number of guesses made.
+
+This simple game helps the user practice their number guessing skills while providing feedback on whether to guess higher or lower with each attempt.
